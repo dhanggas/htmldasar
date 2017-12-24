@@ -1,0 +1,55 @@
+table{
+	float: right;
+	margin-right: 20px;
+}
+
+/*untuk menghilangkan effec float dari atas nya dengan nengunakan clear*/
+#text_p{
+	clear: both;
+}
+
+ul, ol, dl {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 33.32%;
+}
+#copy_r{
+	clear: both;
+	text-align: center;
+
+}
+
+/*selector khusus
+langsung di bawah parennya pas*/
+div > a{
+	background: yellow;
+}
+
+/*untuk p yang langsung di bawah dl*/
+dl + p {
+	background: yellow;
+}
+
+/*semua p yang ada di bawah nya div akan berubah */
+div ~ p{
+	background: green;
+}
+h1:hover{
+	color: red;
+}
+
+/*HOVER adalah keadaan dimana mouse berada di atas elemnt
+1.dirisendir
+2.element lain
+	> langsung di dalama nya
+	+ lanngsung setelah nya
+	(space) berada di suatu tempat di dalam containeer*/
+
+h1:hover + h2{
+	color: red;
+}
+
+input:focus , textarea:focus{
+	background:  yellow;
+}

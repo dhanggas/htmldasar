@@ -3,46 +3,49 @@
 <head>
 	<title>Kontak sekolah koding</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<a href="../dasar.html">Home</a>
-	<a href="kontak.html">&nbsp Kontak</a>
-	<h1>Sekolah Coding</h1>
-	<h2>Tutorial HTML Expert harus belajar serius ya <span>jangan bercanda</span></h2>
+	<div id="menu_member">
+		<a href="../dasar.html">Home</a>
+		<a href="kontak.html">&nbsp Kontak</a>
+	</div>
+	<div id="parent_h1"><h1>Sekolah Coding</h1></div>
+	<div id="parent_h2"><h2>Tutorial HTML Expert harus belajar serius ya </h2></div>
 
 	<!-- membuat form -->
 	<form>
 		<fieldset>
 			<legend>Nama dan Pesan</legend>
-		<label for="txtnama">Nama</label>
-		<input type="text" name="" placeholder="User name" id="txtnama"><br>
-		<label for="txtpesan">Pesan</label>
-		<textarea rows="7" cols="50" placeholder="pesan saya adalah" id="txtpesan"></textarea><br>
+			<label for="txtnama">Nama</label>
+			<input type="text" name="" placeholder="User name" id="txtnama"><br>
+			<label for="txtpesan">Pesan</label>
+			<textarea rows="7" cols="50" placeholder="pesan saya adalah" id="txtpesan"></textarea><br>
 
-		<!-- checkbox dan radio button -->
-		<input type="checkbox" name="txthobi" value="gambar" >Menggambar<br>
-		<input type="checkbox" name="txthobi" value="Tulis" checked="">Menulias<br>
+			<!-- checkbox dan radio button -->
+			<input type="checkbox" name="txthobi" value="gambar" >Menggambar<br>
+			<input type="checkbox" name="txthobi" value="Tulis" checked="">Menulias<br>
 
-		<!-- radio botton -->
-		<input type="radio" name="txtjenis" >Laki-laki
-		<input type="radio" name="txtjenis" >Perempuan<br>
+			<!-- radio botton -->
+			<input type="radio" name="txtjenis" >Laki-laki
+			<input type="radio" name="txtjenis" >Perempuan<br>
 
-		<!-- select option  -->
-		<label>Peljaran</label>
-		<select>
-			<optgroup label="Fornent">
-				<option value="html">Html</option>
-				<option value="2">CSS</option>
-				<option value="3">HTML5</option>
-			</optgroup>
-			<optgroup label="BackEnd">
-				<option value="html">php</option>
-				<option value="2">java</option>
-				<option value="3">mysql</option>
-			</optgroup>
-		</select>
-		<input type="submit" name="" value="Kirim">
-	</fieldset>
+			<!-- select option  -->
+			<label>Peljaran</label>
+			<select>
+				<optgroup label="Fornent">
+					<option value="html">Html</option>
+					<option value="2">CSS</option>
+					<option value="3">HTML5</option>
+				</optgroup>
+				<optgroup label="BackEnd">
+					<option value="html">php</option>
+					<option value="2">java</option>
+					<option value="3">mysql</option>
+				</optgroup>
+			</select>
+			<input type="submit" name="" value="Kirim">
+		</fieldset>
 	</form>
 	<br><br>
 	<table border="1">

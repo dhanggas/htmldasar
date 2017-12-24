@@ -1,0 +1,89 @@
+/**{
+	margin: 0px;
+}*/
+
+h2{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.menu{
+	display: inline-block;
+	/*height: 20px;
+	width: 200px;*/
+	/*border-width: 3px;
+	border-style: solid;
+	border-color: black;*/
+	/*di tulis dalam satu baris bordernya*/
+	border: 3px solid blue;
+	padding: 10px;
+}
+
+/*kondisi kondisi link pada html*/
+.menu:link{
+	color: white;
+	background: grey;
+}
+
+/*talah dikunjungi link nya*/
+.menu:visited{
+	background: #1099E0;
+
+
+}
+
+/*Mouse berada di atas link*/
+.menu:hover{
+	background: green;
+
+}
+
+/*sedang di click*/
+.menu:active{
+	background: white;
+
+}
+
+body{
+	/*background-color:#96dcf2;
+	background-image: url("gambar/1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;*/
+
+	background: #96dcf2 url("gambar/1.png") no-repeat fixed center;
+
+}
+h1{
+	color: blue;
+	text-align: center;
+	text-decoration: underline;
+	display: inline;
+}
+#txtpanjang{
+	text-align: justify;
+	text-align: center;
+	text-indent: 50px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	line-height: 20px;
+	width: 70%;
+}
+#txtpendek{
+	background: yellow;
+	font-size: 24px;
+	font-family: sans-serif;
+	font-weight:bold; 
+	color:#0D31A5;
+	width: 50%;
+	/*visibility: hidden;*/
+	display: none;
+}
+#menu_web{
+	/*margin-bottom: 100px;*/
+	/*top right bottom left*/
+	margin: 10px 0 50px 0;
+}
+
